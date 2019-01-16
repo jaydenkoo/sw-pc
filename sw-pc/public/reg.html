@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reg.css">
+		<script src="js/reg.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="reg">
+            <div class="top">
+                    <div class="shuru">
+                        <h2>注册</h2>
+                        <div class="zhanghao">
+                            <input id="user" type="text" placeholder="输入邮箱账号" onblur="checkUser()">
+                            <label>@2980.com</label>
+														<div id="user_prompt"></div>
+                        </div>
+                        <div class="shouji">
+                            <input id="mobile" type="text" placeholder="输入手机号码" onblur="checkMobile()" maxlength="11" oninput="value=value.replace(/[^\d]/g,'')">
+                            <a href="javascript:;">获取验证码</a>
+														<div id="mobile_prompt"></div>
+                        </div>
+                        <div class="mima">
+                            <input id="code" type="text" placeholder="输入短信验证码" onblur="checkCode()">
+														<div id="code_prompt"></div>
+                        </div>
+                        <div class="mima">
+                            <input id="pwd" type="password" placeholder="输入登录密码" onblur="checkPwd()" maxlength="10" >
+												<div id="pwd_prompt"></div>
+                        </div>
+                        <div class="mima">
+                                <input id="repwd" type="password" placeholder="再次输入密码" onblur="checkRepwd()">
+																<div id="repwd_prompt"></div>
+                         </div>
+                        <div class="wangji">
+                            <label>
+                                <input type="checkbox">
+                                <span>同意<a href="javascript:;">《2980邮箱服务使用协议》</a></span>
+                            </label>
+                        </div>
+                        <input type="button" value="立即注册">
+                        <p>
+                            <a href="login.html">&lt;&lt;返回登录</a>
+                        </p>
+                    </div>
+                </div>
+        <div class="bottom">
+            <div>
+                <p>
+                    <a href="http://localhost:2727">多益首页</a>
+                    <b>|</b>
+                    <a href="javascript:;">手机适配版</a>
+                    <b>|</b>
+                    <a href="javascript:;">联系我们</a>
+                    <b>|</b>
+                    <a href="javascript:;">常见问题</a>
+                    <b>|</b>
+                    <a href="javascript:;">邮箱论坛</a>
+                    <b>|</b>
+                    <span>备案号:</span>
+                    <a href="javascript:;">粤ICP备08002228号-3</a>
+                    <span>&copy;2009-2018 2980. All Rights Reserved</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

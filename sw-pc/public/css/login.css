@@ -1,0 +1,156 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","WenQuanYi Micro Hei",sans-serif;
+}
+input::-webkit-input-placeholder{
+    color:#BDBDBD;
+}
+#login{
+    width:100%;
+    height:100%;
+    background:url("../imgs/login-bg.jpg") center center no-repeat;
+    min-height:712px;
+    max-height:1200px;
+    overflow:hidden;
+}
+#login .top{
+    margin:20px auto;
+    width:1050px;
+    height:670px;
+    background:url("../imgs/login-center.jpg")center center;
+    overflow:hidden;
+}
+#login .top .shuru{
+    width:321px;
+    height:100%;
+    background:white;
+    float:right;
+    overflow:hidden;
+    padding:0 50px;
+    text-align:center;
+}
+#login .top .shuru>img{
+    margin:107px auto 38px;
+}
+#login .top .shuru .zhanghao{
+    border:2px solid #DDDDDD;
+    border-radius:4px;
+    height:53px;
+    line-height:25px;
+    margin:10px auto;
+}
+#login .top .shuru .zhanghao>i{
+    background:url("../imgs/logintubiao.png")0 0;
+    width:20px;
+    height:20px;
+    display:block;
+    margin:16px 0 0 14px;
+    float:left;
+}
+#login .top .shuru .zhanghao>input{
+    width:165px;
+    float:left;
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+    padding:14px;
+    padding-right:0;
+    border:none;
+    outline:none;
+}
+#login .top .shuru .zhanghao>label{
+    width:80px;
+    margin-top:14px;
+    font-size:15px;
+    color:#666;
+    display:inline-block;
+}
+#login .top .shuru .zhanghao:hover{
+    border:2px solid #008ef3;
+}
+#login .top .shuru .mima{
+    border:2px solid #DDDDDD;
+    border-radius:4px;
+    height:53px;    
+    line-height:25px;
+    margin:10px auto;
+}
+#login .top .shuru .mima>i{
+    background:url("../imgs/logintubiao.png")0 -20px;
+    width:20px;
+    height:20px;
+    display:block;
+    margin:16px 0 0 14px;
+    float:left;
+}
+#login .top .shuru .mima>input{
+    float:left;
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+    padding:14px;
+    padding-right:0;
+    border:none;
+    outline:none;
+}
+#login .top .shuru .mima:hover{
+    border:2px solid #008ef3;
+}
+#login .top .shuru .wangji{
+    height:16px;
+    margin:5px 0 31px;
+    font-size:13px;
+    color:#999;
+}
+#login .top .shuru .wangji>label{
+    float:left;
+}
+#login .top .shuru .wangji>label>input{
+    width:16px;
+    height:16px;
+    vertical-align:middle;
+}
+#login .top .shuru .wangji>label>span{
+    vertical-align:bottom;
+}
+#login .top .shuru .wangji>a{
+    float:right;
+    color:#999;
+}
+#login .top .shuru>input{
+    background:#41a0fd;
+    height:50px;
+    line-height:50px;
+    width:100%;
+    font-size:15px;
+    color:white;
+    border-radius:4px;
+    border:0px;
+    outline:none;
+}
+#login .top .shuru>p{
+    margin-top:34px;
+    text-align:center;
+    font-size:15px;   
+}
+#login .top .shuru>p>a{
+    color:#288CEF;
+}
+#login .bottom>div{
+    text-align:center;
+    font-size:12px;
+    height:14px;
+    color:#fff;
+    width:1000px;
+    overflow:hidden;
+    margin:20px auto;
+}
+#login .bottom>div>p>b{
+    margin:0 25px;
+    color:#fff;
+}
+#login .bottom>div>p>a{
+    color:white;
+
+}

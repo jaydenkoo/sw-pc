@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+}
+#header{
+    width:100%;
+    height:55px;
+    background-color:white;
+    position:relative;
+    display:block;
+    min-width:1200px;
+    z-index:9999;
+    display:block;
+}
+#header>div{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    display:block;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+#header .headerimg1{
+    position:absolute;
+    left:12px;
+    top:8px;
+    width:222px;
+    height:38px;
+    z-index:20;
+}
+#header .headerimg2{
+    position:absolute;
+    left:250px;
+    top:0px;
+    width:450px;
+    height:55px;
+}
+#header .font1:hover{
+    border-top:3px solid red; 
+    line-height:48px;
+    cursor: pointer;
+    border-bottom:0;
+    background:#F3F3F3;
+}
+#header .font2{
+    position:absolute;
+    right:0;
+    top:0;
+    height:55px;
+    z-index:30;
+    display:block;
+    
+} 
+#header .font3>a{
+    float:left;
+    padding:0 13px;
+    height:52px;
+    line-height:54px;
+    font-size:14px;
+    color:black;
+}
+#header .font3>div{
+    height:auto;
+    display:block;
+    float:left;
+}
+#header .font3>div>span{
+    float:left;
+    padding:0 13px;
+    height:54px;
+    line-height:54px;
+    font-size:14px;
+    color:black;
+}
+#header .font3>span{
+    float:left;
+    padding:0 13px;
+    height:54px;
+    line-height:54px;
+    font-size:14px;
+    color:black;
+}
+.font3 .xiala{
+    position:relative;
+}
+.font3 .xiala1{
+    position:absolute;
+    background:#F3F3F3;
+    width:82px;
+    display:none;
+    top:55px;
+    height:108px;
+}
+.xiala1>a:hover{
+    background:white !important;
+} 
+.font3 .xiala1>a{
+    float:left;
+    padding:0 13px;
+    height:54px;
+    line-height:54px;
+    font-size:14px;
+    color:black;
+}
+.font3 .xiala2>span>em{
+    display:inline-block;
+    width:14px;
+    height:12px;
+    background:url("../imgs/ico_list.png")
+}
+.imgdingwei{
+    position:relative;
+}
+.imgdingwei .imgbig{
+    position:absolute;
+    left:-30%;
+    top:0;
+    width:950px;    
+    height:245px;
+    display:none;
+    margin-left:2px;
+}
+.xiala2{
+    position:relative;
+}
+.xiala2 .xlnr{
+    position:absolute;
+    top:55px;
+    left:-436%;
+    display:none;
+}
+.xlnr .xltit{
+    background:#efefef;
+    width:515px;
+    height:39px;
+    font-size:16px;
+    color:#2e2e2e;
+    font-weight:bold;
+}
+.xlnr .xltit>div{
+    float:left;
+    width:257px;
+    line-height:41px; 
+    text-indent:17px;
+}
+.xlnr .xlfont{
+    background:rgba(255,255,255,95);
+    border-bottom:1px solid #f5f5f5;
+    height:417px;
+    
+}
+.xlnr .xlfont .leftfont{
+    float:left;
+    width:257px;
+    min-height:220px;
+    padding-bottom:15px;
+}
+.xlnr .xlfont ul{
+    margin-top:14px;
+    float:left;
+    padding-bottom:1px;
+}
+.xlnr .xlfont ul>li{
+    padding-left:20px;
+    position:relative;
+    line-height:14px;
+    float:left;
+    overflow:visible;
+    margin-top:20px;
+    width:224px;
+}
+.xlnr .xlfont span{
+    position:absolute;
+    width:12px;
+    height:12px;
+    text-align:center;
+    line-height:12px;
+    font-size:12px;
+    color:#959595;
+    border:1px solid #959595;
+    left:20px;
+    top:0;
+}
+.xlnr .xlfont a{
+    margin-left:20px;
+    color:#848484;
+    font-size:14px;
+}
+.xlnr .xlfont a>img{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    margin-left:10px;
+    vertical-align:bottom;
+}
+.xlnr .xlfont .rightfont{
+    float:left;
+    width:257px;
+    min-height:220px;
+    padding-bottom:15px;
+}
+.xlbottom{
+    height:34px;
+    background:#f5f5f5;
+    width:515px;
+    text-align:center;
+    line-height:34px;
+    color:#000;
+}
+.xlbottom>span{
+    margin-right:5px;
+    vertical-align:middle;
+    display:inline-block;
+    width:14px;
+    height:14px;
+    margin-left:10px;
+}
+.xlbottom>.hot{
+    background:url("../imgs/hot.png");
+}
+.xlbottom>.gamenew{
+    background:url("../imgs/gamenew.png");
+}
+.xlbottom>.test{
+    background:url("../imgs/test.png");
+}
+.xlbottom>.yu{
+    background:url("../imgs/yu.png")
+}

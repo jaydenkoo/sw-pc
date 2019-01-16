@@ -1,0 +1,188 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","WenQuanYi Micro Hei",sans-serif;
+}
+input::-webkit-input-placeholder{
+    color:#BDBDBD;
+}
+a{
+    text-decoration:none;
+}
+#reg{
+    width:100%;
+    height:100%;
+    background:url("../imgs/login-bg.jpg") center center no-repeat;
+    min-height:712px;
+    max-height:1200px;
+    overflow:hidden;
+}
+#reg .top{
+    margin:20px auto;
+    width:1050px;
+    height:670px;
+    background:url("../imgs/login-center.jpg")center center;
+    overflow:hidden;
+}
+#reg .top .shuru{
+    width:321px;
+    height:100%;
+    background:white;
+    float:right;
+    overflow:hidden;
+    padding:0 50px;
+    text-align:center;
+}
+#reg .top .shuru>h2{
+    margin:57px 0 33px;
+    color:black;
+    font-size:23px;
+    font-weight:400;
+}
+#reg .top .shuru .zhanghao{
+    border:2px solid #DDDDDD;
+    border-radius:4px;
+    height:53px;
+    line-height:25px;
+    margin:10px auto 20px;
+		position:relative;
+}
+#reg .top .shuru .zhanghao>input{
+    width:212px;
+    float:left;
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+    padding:14px;
+    padding-right:0;
+    border:none;
+    outline:none;
+}
+#reg .top .shuru .zhanghao>label{
+    width:80px;
+    margin-top:14px;
+    font-size:15px;
+    color:#666;
+    display:inline-block;
+}
+#reg .top .shuru .zhanghao:hover{
+    border:2px solid #008ef3;
+}
+#reg .top .shuru .shouji{
+    height:53px;
+    padding:0;
+    position:relative;
+    margin:10px auto 20px;
+    line-height:25px;
+    border:2px solid #ddd;
+}
+#reg .top .shuru .shouji>input{
+    width:174px;
+    padding:14px;
+    float:left;
+    border:0;
+    outline:none;
+    font-size:15px;
+    line-height:25px;
+}
+#reg .top .shuru .shouji>a{
+    position: absolute;
+    width:100px;
+    height:30px;
+    display:inline-block;
+    line-height:30px;
+    color:white;
+    background:#008ef3;
+    font-size:12px;
+    right:10px;
+    top:12px;
+    border-radius:4px;
+}
+#reg .top .shuru .shouji:hover{
+    border:2px solid #008ef3;
+}
+#reg .top .shuru .mima{
+    border:2px solid #DDDDDD;
+    border-radius:4px;
+    height:53px;    
+    line-height:25px;
+    margin:10px auto 20px;
+		position:relative;
+}
+#reg .top .shuru .mima>input{
+    float:left;
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+    padding:14px;
+    padding-right:0;
+    border:none;
+    outline:none;
+    width:281px;
+}
+#reg .top .shuru .mima:hover{
+    border:2px solid #008ef3;
+}
+#reg .top .shuru .wangji{
+    height:16px;
+    margin:5px 0 31px;
+    font-size:13px;
+    color:#999;
+}
+#reg .top .shuru .wangji>label{
+    float:left;
+}
+#reg .top .shuru .wangji>label>input{
+    width:16px;
+    height:16px;
+    vertical-align:middle;
+}
+#reg .top .shuru .wangji>label>span{
+    vertical-align:bottom;
+}
+#reg .top .shuru .wangji>label>span>a{
+    color: #288CEF;
+    vertical-align:bottom;
+}
+#reg .top .shuru>input{
+    background:#008ef3;
+    height:50px;
+    line-height:50px;
+    width:100%;
+    font-size:15px;
+    color:white;
+    border-radius:4px;
+    border:0px;
+    outline:none;
+}
+#reg .top .shuru>p{
+    margin-top:34px;
+    text-align:center;
+    font-size:15px;   
+}
+#reg .top .shuru>p>a{
+    color:#288CEF;
+}
+#reg .bottom>div{
+    text-align:center;
+    font-size:12px;
+    height:14px;
+    color:#fff;
+    width:1000px;
+    overflow:hidden;
+    margin:20px auto;
+}
+#reg .bottom>div>p>b{
+    margin:0 25px;
+    color:#fff;
+}
+#reg .bottom>div>p>a{
+    color:white;
+}
+#user_prompt,#mobile_prompt,#mobile_prompt,#pwd_prompt,#repwd_prompt,#code_prompt{
+	position:absolute;
+	bottom:-25px;
+	left:2px;
+	color:red;
+	font-size:12px;
+}

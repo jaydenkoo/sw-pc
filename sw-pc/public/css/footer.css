@@ -1,0 +1,29 @@
+body{
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+a{
+	text-decoration:none;
+}
+span,span a,span a i{
+	color:#999999;
+}
+#footer{
+	font-size:12px;
+	text-align:center;
+	padding:20px 0 20px 0;
+	display:block;
+	background:#00060B;
+}
+img{
+	vertical-align:middle;
+	padding:0 5px 0 5px;
+}
+.font1:hover{
+	border-bottom:1px solid red;
+	color:red;
+}
+.font2:hover{
+	color:red;
+}
